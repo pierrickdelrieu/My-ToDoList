@@ -27,6 +27,8 @@ export default {
 <style>
   #home-container {
     margin: 0;
+    max-width: 100vw;
+    overflow-x: hidden;
   }
 
 

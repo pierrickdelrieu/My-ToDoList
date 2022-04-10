@@ -69,6 +69,12 @@ export default {
     line-height: 110%;
   }
 
+  @media screen and (max-height: 550px){
+    #presentation-subtitle {
+      display: none;
+    }
+  }
+
 
   /* ******************** Image ******************** */
   #img-presentation {
@@ -152,11 +158,19 @@ export default {
 
 
     @media screen and (max-width: 437px){
+      #presentation-title img {
+        width: 150px;
+        top: 75px;
+        left: 50%;
+        transform: rotate(14deg);
+      }
+    }
+
+  @media screen and (max-width: 325px){
     #presentation-title img {
-      width: 150px;
-      top: 75px;
+      top: 170px;
       left: 50%;
-      transform: rotate(14deg);
+      transform: rotate(14deg) translateX(-50%);
     }
   }
 

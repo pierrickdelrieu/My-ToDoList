@@ -125,13 +125,20 @@ export default {
     width: 255px;
   }
 
+  @media screen and (max-width: 460px){
+    #header--title-content {
+      display: none;
+    }
+  }
+
   #header--title-content h1 {
     font-weight: 400;
     font-size: 2.5em;
-    line-height: 10px;
+    line-height: 100%;
 
     text-align: center;
     min-width: fit-content;
+    margin: 0 0 15px;
   }
 
   #header--title-content h2 {
@@ -139,6 +146,7 @@ export default {
     font-size: 11px;
 
     text-align: center;
+    margin: 0;
   }
 
   @media screen and (max-width: 800px) {

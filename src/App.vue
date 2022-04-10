@@ -1,7 +1,5 @@
 <template>
-<div id="app">
    <router-view />
-</div>
 </template>
 
 <script>
@@ -17,6 +15,7 @@ export default {
     background-color: #F2F2F2;
 
     overflow-x: hidden;
+    max-width: 100vw;
     font-family: Ubuntu, sans-serif;
     font-style: normal;
     font-weight: normal;
@@ -28,7 +27,11 @@ export default {
 
     margin: 0;
     padding: 0;
-    width: 100%;
+  }
+
+  #app {
+    overflow-x: hidden;
+    max-width: 100vw;
   }
 
 </style>
